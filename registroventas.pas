@@ -1,0 +1,91 @@
+unit registroventas;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.StdCtrls, Data.DB,
+  Data.Win.ADODB, Vcl.Grids, Vcl.DBGrids, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf,
+  FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys,
+  FireDAC.Phys.MSAcc, FireDAC.Phys.MSAccDef, FireDAC.VCLUI.Wait,
+  FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client;
+
+type
+  TForm7 = class(TForm)
+    MainMenu1: TMainMenu;
+    Regresar1: TMenuItem;
+    Regresar2: TMenuItem;
+    Label1: TLabel;
+    Edit1: TEdit;
+    Button1: TButton;
+    Label9: TLabel;
+    DataSource1: TDataSource;
+    DBGrid1: TDBGrid;
+    Button2: TButton;
+    FDConnection1: TFDConnection;
+    FDQuery1: TFDQuery;
+    Button3: TButton;
+    procedure Regresar1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form7: TForm7;
+
+implementation
+
+{$R *.dfm}
+
+uses cobranza;
+
+procedure TForm7.Button1Click(Sender: TObject);
+
+var x:string;
+   // 39 para comilla
+begin
+x:='Select * From ventas where Folio='+chr(39)+Edit1.Text+chr(39);
+FDQuery1.SQL.Clear;
+FDQuery1.SQL.add(x);
+FDQUERY1.Active:=True;
+
+end;
+
+procedure TForm7.Button2Click(Sender: TObject);
+begin
+ Form8.visible:=true;
+end;
+
+procedure TForm7.Button3Click(Sender: TObject);
+
+var x:string;
+   // 39 para comilla
+begin
+x:='Select * From ventas';
+FDQuery1.SQL.Clear;
+FDQuery1.SQL.add(x);
+FDQUERY1.Active:=True;
+
+end;
+
+procedure TForm7.FormCreate(Sender: TObject);
+begin
+            width:= 1200;
+height:= 860;
+position:= poscreencenter;
+end;
+
+procedure TForm7.Regresar1Click(Sender: TObject);
+begin
+Close;
+end;
+
+end.

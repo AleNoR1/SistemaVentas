@@ -1,0 +1,116 @@
+unit vendedores;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Data.DB, Vcl.Grids,
+  Vcl.DBGrids, Vcl.Menus, Data.Win.ADODB, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf,
+  FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys,
+  FireDAC.VCLUI.Wait, FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf,
+  FireDAC.DApt, FireDAC.Comp.DataSet, FireDAC.Comp.Client, FireDAC.Phys.MSAcc,
+  FireDAC.Phys.MSAccDef, Vcl.Mask, Vcl.DBCtrls;
+
+type
+  TForm3 = class(TForm)
+    Label1: TLabel;
+    Edit1: TEdit;
+    Button1: TButton;
+    DBGrid1: TDBGrid;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    MainMenu1: TMainMenu;
+    Regresar1: TMenuItem;
+    N1: TMenuItem;
+    DataSource1: TDataSource;
+    FDConnectionVendedores: TFDConnection;
+    FDQuery1: TFDQuery;
+    DBEdit1: TDBEdit;
+    DBEdit2: TDBEdit;
+    DBEdit3: TDBEdit;
+    DBEdit4: TDBEdit;
+    DBEdit5: TDBEdit;
+    DBEdit6: TDBEdit;
+    Button4: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button5: TButton;
+    procedure Regresar1Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+uses inicio;
+
+procedure TForm3.Button1Click(Sender: TObject);
+var x:string;
+   // 39 para comilla
+begin
+x:='Select * From vendedores where Clave='+chr(39)+Edit1.Text+chr(39);
+FDQuery1.SQL.Clear;
+FDQuery1.SQL.add(x);
+FDQUERY1.Active:=True;
+
+end;
+
+procedure TForm3.Button2Click(Sender: TObject);
+begin
+FdQuery1.refresh;
+end;
+
+procedure TForm3.Button3Click(Sender: TObject);
+begin
+FdQuery1.insert;
+end;
+
+procedure TForm3.Button4Click(Sender: TObject);
+begin
+FdQuery1.insert;
+end;
+
+procedure TForm3.Button5Click(Sender: TObject);
+var x:string;
+   // 39 para comilla
+begin
+x:='Select * From vendedores';
+FDQuery1.SQL.Clear;
+FDQuery1.SQL.add(x);
+FDQUERY1.Active:=True;
+end;
+
+procedure TForm3.FormCreate(Sender: TObject);
+begin
+width:= 1200;
+height:= 860;
+position:= poscreencenter;
+end;
+
+procedure TForm3.Regresar1Click(Sender: TObject);
+begin
+Close;
+end;
+
+end.

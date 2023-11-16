@@ -1,0 +1,57 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 231
+  ClientWidth = 505
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 464
+    Top = 192
+    object Vededores1: TMenuItem
+      Caption = 'Inicio'
+      object Vendedores1: TMenuItem
+        Caption = 'Vendedores'
+        OnClick = Vendedores1Click
+      end
+      object Vendedores2: TMenuItem
+        Caption = 'Proveedores'
+        OnClick = Vendedores2Click
+      end
+    end
+    object Inventario1: TMenuItem
+      Caption = 'Ventas'
+      object NuevaVenta1: TMenuItem
+        Caption = 'Nueva Venta'
+      end
+      object Historial1: TMenuItem
+        Caption = 'Historial'
+      end
+    end
+    object Proveedores1: TMenuItem
+      Caption = 'Productos'
+      object Inventario2: TMenuItem
+        Caption = 'Inventario'
+      end
+      object Paquetes1: TMenuItem
+        Caption = 'Paquetes'
+      end
+    end
+    object Salir1: TMenuItem
+      Caption = 'Salir'
+      OnClick = Salir1Click
+    end
+    object N1: TMenuItem
+      Caption = '?'
+    end
+  end
+end

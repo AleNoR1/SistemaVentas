@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/03/19 16:32:15.000.324,=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/30 16:42:24.000.698,=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/30 16:46:34.000.869,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\inicio.dfm</Transaction>
+    <Transaction>2022/03/30 16:46:34.000.869,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\inicio.pas</Transaction>
+    <Transaction>2022/03/30 16:47:15.000.444,=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/03/30 16:52:22.000.691,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\clientes.pas</Transaction>
+    <Transaction>2022/03/30 16:52:22.000.691,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\clientes.dfm</Transaction>
+    <Transaction>2022/03/30 16:53:09.000.899,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Project1.dproj</Transaction>
+    <Transaction>2022/03/30 17:14:33.000.748,=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit3.pas</Transaction>
+    <Transaction>2022/04/11 20:32:22.000.893,=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit4.pas</Transaction>
+    <Transaction>2022/04/23 18:39:17.000.714,=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit1.pas</Transaction>
+    <Transaction>2022/04/23 19:45:19.000.347,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit1.pas=</Transaction>
+    <Transaction>2022/04/23 20:24:01.000.978,=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit2.pas</Transaction>
+    <Transaction>2022/04/23 23:32:14.000.155,=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit5.pas</Transaction>
+    <Transaction>2022/04/24 00:36:53.000.722,=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit6.pas</Transaction>
+    <Transaction>2022/04/25 18:41:30.000.019,=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit7.pas</Transaction>
+    <Transaction>2022/04/27 14:45:46.000.817,=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit8.pas</Transaction>
+    <Transaction>2022/04/29 17:30:49.000.717,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\vendedores.dfm=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit3.dfm</Transaction>
+    <Transaction>2022/04/29 17:30:49.000.717,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\vendedores.pas=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit3.pas</Transaction>
+    <Transaction>2022/04/29 17:35:10.000.099,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\proveedores.pas=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit5.pas</Transaction>
+    <Transaction>2022/04/29 17:35:10.000.099,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\proveedores.dfm=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit5.dfm</Transaction>
+    <Transaction>2022/04/29 17:42:41.000.239,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\inventario.pas=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit6.pas</Transaction>
+    <Transaction>2022/04/29 17:42:41.000.239,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\inventario.dfm=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit6.dfm</Transaction>
+    <Transaction>2022/04/29 17:43:26.000.941,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\registroventas.pas=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit7.pas</Transaction>
+    <Transaction>2022/04/29 17:43:26.000.941,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\registroventas.dfm=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit7.dfm</Transaction>
+    <Transaction>2022/04/29 17:43:53.000.568,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\cobranza.dfm=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit8.dfm</Transaction>
+    <Transaction>2022/04/29 17:43:53.000.568,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\cobranza.pas=C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit8.pas</Transaction>
+    <Transaction>2022/05/08 00:22:30.000.530,C:\Users\noriega\Documents\Embarcadero\Studio\Projects\PROYECTO\Unit4.pas=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="clientes.pas"/>
+    <File Path="clientes.dfm"/>
+    <File Path="inicio.pas"/>
+    <File Path="inicio.dfm"/>
+    <File Path="proveedores.pas"/>
+    <File Path="proveedores.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="inventario.pas"/>
+    <File Path="inventario.dfm"/>
+    <File Path="registroventas.pas"/>
+    <File Path="registroventas.dfm"/>
+    <File Path="cobranza.pas"/>
+    <File Path="cobranza.dfm"/>
+    <File Path="vendedores.pas"/>
+    <File Path="vendedores.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

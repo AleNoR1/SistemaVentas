@@ -1,0 +1,51 @@
+unit Unit7;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.StdCtrls, Data.DB,
+  Data.Win.ADODB, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TForm7 = class(TForm)
+    MainMenu1: TMainMenu;
+    Regresar1: TMenuItem;
+    Regresar2: TMenuItem;
+    Label1: TLabel;
+    Edit1: TEdit;
+    Button1: TButton;
+    Label9: TLabel;
+    ADOConnection1: TADOConnection;
+    ADOTable1: TADOTable;
+    DataSource1: TDataSource;
+    DBGrid1: TDBGrid;
+    Button2: TButton;
+    procedure Regresar1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form7: TForm7;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit8;
+
+procedure TForm7.Button2Click(Sender: TObject);
+begin
+ Form8.visible:=true;
+end;
+
+procedure TForm7.Regresar1Click(Sender: TObject);
+begin
+Close;
+end;
+
+end.

@@ -1,0 +1,184 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 448
+  ClientWidth = 745
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 16
+    Width = 57
+    Height = 13
+    Caption = 'Vendedores'
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 101
+    Width = 91
+    Height = 13
+    Caption = 'Lista de Empleados'
+  end
+  object Label3: TLabel
+    Left = 560
+    Top = 23
+    Width = 67
+    Height = 13
+    Caption = 'FORMULARIO'
+  end
+  object Label4: TLabel
+    Left = 440
+    Top = 96
+    Width = 37
+    Height = 13
+    Caption = 'Nombre'
+  end
+  object Label5: TLabel
+    Left = 440
+    Top = 128
+    Width = 37
+    Height = 13
+    Caption = 'Apellido'
+  end
+  object Label6: TLabel
+    Left = 440
+    Top = 160
+    Width = 24
+    Height = 13
+    Caption = 'Edad'
+  end
+  object Label7: TLabel
+    Left = 608
+    Top = 160
+    Width = 24
+    Height = 13
+    Caption = 'Sexo'
+  end
+  object Label8: TLabel
+    Left = 440
+    Top = 200
+    Width = 42
+    Height = 13
+    Caption = 'Tel'#233'fono'
+  end
+  object Label9: TLabel
+    Left = 440
+    Top = 232
+    Width = 43
+    Height = 13
+    Caption = 'Direcci'#243'n'
+  end
+  object Label10: TLabel
+    Left = 335
+    Top = 56
+    Width = 410
+    Height = 18
+    Caption = 
+      'Para a'#241'adir un nuevo vendedor a la lista de vendedores llena el ' +
+      'siguiente formulario'
+  end
+  object Edit1: TEdit
+    Left = 104
+    Top = 13
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    Text = 'nombre o c'#243'digo'
+  end
+  object Button1: TButton
+    Left = 231
+    Top = 11
+    Width = 75
+    Height = 25
+    Caption = 'BUSCAR'
+    TabOrder = 1
+  end
+  object DBGrid1: TDBGrid
+    Left = 24
+    Top = 120
+    Width = 353
+    Height = 305
+    TabOrder = 2
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object Edit2: TEdit
+    Left = 489
+    Top = 93
+    Width = 240
+    Height = 21
+    TabOrder = 3
+    Text = '...'
+  end
+  object Edit3: TEdit
+    Left = 489
+    Top = 120
+    Width = 240
+    Height = 21
+    TabOrder = 4
+    Text = '...'
+  end
+  object Edit4: TEdit
+    Left = 489
+    Top = 157
+    Width = 113
+    Height = 21
+    TabOrder = 5
+    Text = '..'
+  end
+  object Edit5: TEdit
+    Left = 638
+    Top = 157
+    Width = 75
+    Height = 21
+    TabOrder = 6
+    Text = 'H/M'
+  end
+  object Edit6: TEdit
+    Left = 488
+    Top = 197
+    Width = 241
+    Height = 21
+    TabOrder = 7
+    Text = 'xxx-xxx-xxxx'
+  end
+  object Edit7: TEdit
+    Left = 489
+    Top = 229
+    Width = 240
+    Height = 21
+    TabOrder = 8
+    Text = 'Calle,avenida, numero, ciudad,estado'
+  end
+  object Button2: TButton
+    Left = 560
+    Top = 272
+    Width = 75
+    Height = 25
+    Caption = 'A'#209'ADIR'
+    TabOrder = 9
+  end
+  object MainMenu1: TMainMenu
+    Left = 384
+    Top = 65528
+    object Regresar1: TMenuItem
+      Caption = 'Regresar'
+      OnClick = Regresar1Click
+    end
+    object N1: TMenuItem
+      Caption = '?'
+    end
+  end
+end
